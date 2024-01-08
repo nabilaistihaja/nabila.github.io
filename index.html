@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quinzel Enterprise</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">NAB'S</a>
+		<ul>
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</header>
+	<section>
+		<img src="awan1.png" id="awan">
+		<img src="sun6.png" id="sun">
+		<h2 id="text">FAQ MELUKIS</h2>
+		<div class="search">
+            <input type="text" name="" id="search_item" placeholder="search...."
+            onkeyup="search()">
+			<a href="#sec">
+            <button class="button">search</button></a>
+		<img src="beach.png" id="beach">
+		<img src="batu1.png" id="batu">
+	</section>
+
+	<div class="sec" id="sec">
+	<div class="container">
+		<h1>Frequently Asked Questions</h1>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc1">
+			<label for="acc1">
+				<h2>01</h2>
+				<h3>Apa itu lukisan?</h3>
+			</label>
+			<div class="content"><p>Lukisan adalah bentuk seni visual yang melibatkan penggunaan pigmen warna untuk menciptakan gambar atau representasi visual di atas permukaan, seperti kanvas, kertas, atau dinding.</p></div>                
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc2">
+			<label for="acc2">
+				<h2>02</h2>
+				<h3>Apa yang membedakan lukisan dari bentuk seni visual lainnya?</h3>
+			</label>
+			<div class="content"><p>Lukisan khususnya menggunakan cat atau pigmen untuk menciptakan gambar, sementara seni visual lainnya mungkin melibatkan medium yang berbeda seperti pensil, pensil warna, atau tinta.</p></div>
+		</div> 
+		<div class="tab">
+			<input type="radio" name="acc" id="acc3">
+			<label for="acc3">
+				<h2>03</h2>
+				<h3>Apa tema umum dalam lukisan?</h3>
+			</label>
+			<div class="content"><p>Tema lukisan sangat bervariasi dan dapat mencakup alam, manusia, abstrak, realisme, mitos, sejarah, dan banyak lagi. Tema dapat mencerminkan kehidupan sehari-hari atau imajinasi seniman.</p></div>
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc4">
+			<label for="acc4">
+				<h2>04</h2>
+				<h3>Bagaimana proses pembuatan lukisan dimulai?</h3>
+			</label>
+			<div class="content"><p>Proses lukisan dimulai dengan pemilihan tema dan konsep. Selanjutnya, seniman membuat sketsa awal, memilih palet warna, dan memulai menerapkan cat ke permukaan yang dipilih.</p></div>
+		</div>       
+		<div class="tab">
+			<input type="radio" name="acc" id="acc5">
+			<label for="acc5">
+				<h2>05</h2>
+				<h3>Apa itu palet warna dalam konteks lukisan?</h3>
+			</label>
+			<div class="content"><p>Palet warna adalah kumpulan warna yang dipilih oleh seniman untuk digunakan dalam suatu lukisan. Ini dapat mencakup warna dasar dan campuran warna untuk mencapai efek yang diinginkan.</p></div>
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc6">
+			<label for="acc6">
+				<h2>06</h2>
+				<h3>Apa perbedaan antara lukisan realis dan abstrak?</h3>
+			</label>
+			<div class="content"><p>Lukisan realis mencoba mereproduksi objek atau subjek dengan seakurat mungkin, sedangkan lukisan abstrak menciptakan interpretasi visual yang lebih bebas dan non-representasional.</p></div>
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc7">
+			<label for="acc7">
+				<h2>07</h2>
+				<h3>Apa yang dibutuhkan untuk memulai melukis?</h3>
+			</label>
+			<div class="content"><p>Untuk memulai melukis, Anda memerlukan kanvas atau permukaan lainnya, cat, kuas, palet, dan media pengencer cat (jika diperlukan). Seniman juga dapat menggunakan spatula, pisau palet, atau media lainnya.</p></div>
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc8">
+			<label for="acc8">
+				<h2>07</h2>
+				<h3>Bagaimana cara seniman memamerkan dan menjual sebuah lukisan?</h3>
+			</label>
+			<div class="content"><p>Seniman dapat memamerkan karyanya di galeri seni, pameran seni lokal, atau bahkan secara online. Penjualan dapat dilakukan langsung melalui galeri atau melalui platform online khusus seni.</p></div>
+		</div>
+		<div class="tab">
+			<input type="radio" name="acc" id="acc9">
+			<label for="acc9">
+				<h2>07</h2>
+				<h3>Apa yang memengaruhi harga sebuah lukisan?</h3>
+			</label>
+			<div class="content"><p>Harga lukisan dapat dipengaruhi oleh faktor-faktor seperti ukuran lukisan, reputasi seniman, teknik yang digunakan, dan permintaan pasar.</p></div>
+		</div>      
+	</div>
+	<div class="sec" id="sec">
+	</div>
+
+	<footer>     
+		<div class="main-content">
+			<div class="right box">
+				<h2>Contact Us</h2>
+                <div class="content">
+                    <div class="text">Sender Name</div>
+                        <input type="text" id="sendername"> <br>
+                    <div class="text">Subject</div>
+                        <input type="text" id="subject"> <br>
+                    message <br>
+                    <textarea id="pesan" cols="40" rows="8"></textarea> <br>
+                    <button onclick = "sendMail();">Send</button>
+                </div>
+             </div>
+        </div>        
+    </footer>	
+	<script src="app.js"></script>
+
+</body>
+</html>
